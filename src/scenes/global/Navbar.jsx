@@ -81,7 +81,7 @@ const Item = ({ title, to, icon, selected, setSelected }) => {
                 ml="15px"
               >
                 <Typography variant="h3" color={colors.grey[100]}>
-                  ADMINS
+                  Admins
                 </Typography>
                 <IconButton onClick={() => setIsCollapsed(!isCollapsed)}>
                   <MenuOutlinedIcon />
@@ -106,6 +106,7 @@ const Item = ({ title, to, icon, selected, setSelected }) => {
                   variant="h2"
                   color={colors.grey[100]}
                   fontWeight="bold"
+                  // m is short for margin
                   sx={{ m: "10px 0 0 0" }}
                 >
                   Jake Elsberry
@@ -141,14 +142,14 @@ const Item = ({ title, to, icon, selected, setSelected }) => {
               setSelected={setSelected}
             />
             <Item
-              title="Contacts Information"
+              title="Contacts"
               to="/contacts"
               icon={<ContactsOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
             />
             <Item
-              title="Invoices Balances"
+              title="Invoices & Balances"
               to="/invoices"
               icon={<ReceiptOutlinedIcon />}
               selected={selected}
