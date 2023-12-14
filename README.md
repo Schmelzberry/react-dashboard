@@ -1,8 +1,16 @@
 # _Administrator Dashboard_
 
-#### By _**Jake Elsberry**_
+## By _**Jake Elsberry**_
 
 #### _A dashboard that allows a manger to track business processes. Features static and dynamic components in an effort to explore various React libraries._
+
+#### Home Page
+
+![Dashboard Diagram](public/assets/Dashboard.png "Dashboard")
+
+#### Contacts Page
+
+![Clients](public/assets/DBContacts.png "Dashboard")
 
 ## Technologies Used
 
@@ -24,9 +32,6 @@
 
 _Monitor businesses performance via dashboard. Track employees, contacts, and invoices. Uses Material UI to present concise and clear data._
 
-## Home Page
-
-![Dashboard Diagram](public/assets/Dashboard.png "Dashboard")
 
 ## Setup/Installation Requirements
 
