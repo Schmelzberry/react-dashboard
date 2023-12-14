@@ -46,7 +46,7 @@ const Contacts = () => {
       flex: 1,
     },
     {
-      field: "zipcode",
+      field: "zipCode",
       headerName: "Zipcode",
       flex: 1,
     },

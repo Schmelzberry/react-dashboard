@@ -111,7 +111,7 @@ const Item = ({ title, to, icon, selected, setSelected }) => {
                   // m is short for margin
                   sx={{ m: "10px 0 0 0" }}
                 >
-                  Jake Elsberry
+                  Matty M
                 </Typography>
                 <Typography variant="h5" color={colors.greenAccent[500]}>
                   Fancy Pants Admin
