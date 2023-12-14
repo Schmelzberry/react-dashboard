@@ -1,10 +1,11 @@
+
+
 // import { useState } from "react";
-// import FullCalendar from "@fullcalendar/react";
-// import { formatDate } from '@fullcalendar/core';
-// import dayGridPlugin from "@fullcalendar/daygrid";
-// import timeGridPlugin from "@fullcalendar/timegrid";
-// import interactionPlugin from "@fullcalendar/interaction";
-// import listPlugin from "@fullcalendar/list";
+// import {FullCalendar} from '@fullcalendar/react';
+// import dayGridPlugin from '@fullcalendar/daygrid';
+// import timeGridPlugin from '@fullcalendar/timegrid';
+// import interactionPlugin from '@fullcalendar/interaction';
+// import listPlugin from '@fullcalendar/list';
 // import {
 //   Box,
 //   List,
@@ -16,7 +17,9 @@
 // import Header from "../../components/Header";
 // import { tokens } from "../../theme";
 
-// const Calendar = () => {
+
+
+// const MyCalendar = () => {
 //   const theme = useTheme();
 //   const colors = tokens(theme.palette.mode);
 //   const [currentEvents, setCurrentEvents] = useState([]);
@@ -89,14 +92,8 @@
 
 //         {/* CALENDAR */}
 //         <Box flex="1 1 100%" ml="15px">
-//           <FullCalendar
-//             height="75vh"
-//             plugins={[
-//               dayGridPlugin,
-//               timeGridPlugin,
-//               interactionPlugin,
-//               listPlugin,
-//             ]}
+//           <Calendar
+//             plugins={[dayGridPlugin, timeGridPlugin, interactionPlugin, listPlugin]}
 //             headerToolbar={{
 //               left: "prev,next today",
 //               center: "title",
@@ -129,4 +126,5 @@
 //   );
 // };
 
-// export default Calendar;
+// export default MyCalendar;
+
